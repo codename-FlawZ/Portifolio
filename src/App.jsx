@@ -2,6 +2,7 @@
 import { useRef } from 'react';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
+import { FaBeer } from 'react-icons/fa';
 
 // Page Imports
 import Navbar from './Components/Navbar';
@@ -14,7 +15,7 @@ import Footer from './Components/Footer'
 // Main Code
 const App = () => {
   return (
-    <main className='bg-main_bg '>
+    <main className="bg-main_bg">
       <Navbar />
       <Hero />
       <About />
